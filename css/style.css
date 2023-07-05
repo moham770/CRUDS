@@ -1,0 +1,52 @@
+body{
+    min-height: 100vh;
+    background: rgb(71,67,135);
+    background: linear-gradient(90deg, rgba(71,67,135,0.9248949579831933) 6%, rgba(146,159,140,1) 58%, rgba(142,157,139,1) 59%, rgba(23,98,113,1) 91%);
+    color: #fff;
+}
+
+
+.form-control{
+    margin-bottom: 10px ;
+    transition: 0.3s;
+}
+
+.form-control:focus{
+    box-shadow:0 0 0 2px gold;
+    transform: scale(1.05);
+}
+
+#total{
+    background-color: rgb(189, 6, 6) ;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 1px 15px;
+    margin-bottom: 10px;
+    width: fit-content; 
+}
+#total::before{
+    content: "Total: ";
+}
+thead {
+    text-transform: uppercase;
+}
+.btn-red{
+    background-color: #bd0606;
+    color: #fff;
+    
+}
+.btn-red:hover{
+    background-color: #801010;
+
+}
+.btn-green{
+    background-color: rgb(15, 95, 15);
+    color: #fff;
+}
+.btn-green:hover{
+    background-color: rgb(4, 55, 4);
+
+}
+#create,#Search-title,#Search-Category{
+    margin-bottom: 10px;
+}
